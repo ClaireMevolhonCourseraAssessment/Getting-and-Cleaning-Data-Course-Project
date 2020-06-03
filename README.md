@@ -13,9 +13,7 @@ It will create :
 - data_per_activities_and_subject : dataset with the average of each variable for each activity and each subject
 
 Information : the last dataset (data_per_activities_and_subject) is already saved into the repository into the 
-file "tidy_data_grouped_per_activities_and_subjects.txt". If every goes well, it must be the same.
-you can retrive it with the command:
-tidy_data <- read.csv("tidy_data_grouped_per_activities_and_subjects.txt", sep="")
+file "tidy_data_grouped_per_activities_and_subjects.txt". If everything goes well, it must be the same.
 
 ## What does the script run_analysis ?
 
