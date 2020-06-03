@@ -17,3 +17,20 @@ file "tidy_data_grouped_per_activities_and_subjects.txt". If every goes well, it
 you can retrive it with the command:
 tidy_data <- read.csv("tidy_data_grouped_per_activities_and_subjects.txt", sep="")
 
+## What does the script run_analysis ?
+
+(warning, I changed the order of coursera)
+1. Merges the training and the test sets to create one data set.
+2. Appropriately labels the data set with descriptive variable names.
+         -->  Uses the file features.txt to name the colomn of the data.
+3. Extracts only the measurements on the mean and standard deviation for each measurement.
+4. Uses descriptive activity names to name the activities in the data set
+5. From the data set in step 4, creates a second, independent tidy data set with the average
+     of each variable for each activity and each subject.
+
+
+The data is already available on the folder "UCI HAR Dataset". It comes from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
