@@ -6,7 +6,7 @@ The data to tidy is in the folder "UCI HAR Dataset" and comes with a documentati
 Please, check your plyr package is well installed, or install it by running this command:
 > install.packages("plyr")
 
-Then you can run the script "run_analysis".
+Then you can run the script "run_analysis.R".
 It will create :
 - data : dataset that contain all the data including training and testing data.
 - data_mean_std : dataset that contains all the measurements of mean and standard deviations
